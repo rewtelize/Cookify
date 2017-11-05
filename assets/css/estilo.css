@@ -1,0 +1,196 @@
+/* ------------------------------------------------------------ */
+/* Login                                                        */
+/* ------------------------------------------------------------ */
+.background-image {
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 1;
+
+  	display: block;
+	/*background-image: url('../images/bg-login2.jpg');*/
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
+}
+
+.content {
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	z-index: 9999;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Patrick+Hand');
+
+.title-page {
+	font-family: 'Patrick Hand', cursive;
+	font-size: 100px;
+	color: white;
+	width: 100%;
+	text-align: center;
+    display: block;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    background: #333333;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.container-login {
+    min-height: 0;
+    width: 480px;
+    color: #333333;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-login > section {
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 10px;
+}
+#top-bar {
+    display: inherit;
+}
+.nav-tabs.nav-justified {
+    border-bottom: 0 none;
+    width: 100%;
+}
+.nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+}
+
+/* Olvidaste sin raton */
+.container-login .nav-tabs.nav-justified > li > a,
+.container-login .nav-tabs.nav-justified > li > a:hover,
+.container-login .nav-tabs.nav-justified > li > a:focus {
+    background: #AA5939;
+    border: medium none;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-right: 0;
+    border-radius: 0;
+}
+.container-login .nav-tabs.nav-justified > .active > a,
+.container-login .nav-tabs.nav-justified > .active > a:hover,
+.container-login .nav-tabs.nav-justified > .active > a:focus {
+    background: #ffffff;
+    color: #333333;
+}
+
+/* Olvidaste con raton */
+.container-login .nav-tabs.nav-justified > li > a:hover,
+.container-login .nav-tabs.nav-justified > li > a:focus {
+    background: #BA3500;
+}
+.tabs-login {
+    background: #ffffff;
+    border: medium none;
+    margin-top: -1px;
+    padding: 10px 30px;
+}
+.container-login h2 {
+    color: #333333;
+    width: 100%;
+    text-align: center
+}
+/*.form-control {
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #999999;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+.container-login .checkbox {
+    margin-top: -15px;
+}*/
+
+.btn-blue
+{ background-color: #2B4970; color: #ffffff;}
+.btn-blue:hover
+{ background-color: #003A85; }
+.btn-blue:active
+{ background-color: #0A3B7A; }
+
+.btn-orange
+{ background-color: #AA5939; color: #ffffff;}
+.btn-orange:hover
+{ background-color: #CA3A00; }
+.btn-orange:active
+{ background-color: #BA3500; }
+
+#btn-register, #btn-login
+{
+    border-radius: 3px;
+    border: 0px;
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 10px 16px;
+    width: 100%;
+}
+
+/* ------------------------------------------------------------ */
+/* Register                                                     */
+/* ------------------------------------------------------------ */
+.container-login .profile-picture-box {
+    border: medium none;
+    border-color: #111111;
+    width: 100%;
+    padding: 5%;
+}
+
+.container-login img {
+    border: 1px solid #111111;
+    border-radius: 10px; 
+    padding: 2%;
+}
+
+.receta-ip ul,ol {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.receta-ip li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+.receta-ip li:before {
+    content: "• ";
+    color: #AA5939; /* or whatever color you prefer */
+}
+
+.btn-borrar, 
+.btn-subir {
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}

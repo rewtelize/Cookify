@@ -1,0 +1,280 @@
+.foreground {
+	z-index: 9998;
+	position: relative;
+}
+
+#home-body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: grey;
+  color: white;
+}
+
+[class*="col-"]{
+    padding-right:7px;
+    padding-left:7px;
+}
+
+.navbar-brand
+{
+  font-family: 'Patrick Hand', cursive;
+}
+
+/*.navbar .profile-image{
+    margin: -10px 0px;
+    height: 40px;
+}*/
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 15px;
+    background-color: rgba(170, 89, 57, 1);
+    border-bottom-width: 10px;
+    border-bottom-color: #BA3500;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(170, 89, 57, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(186, 53, 0, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(202, 58, 0, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ca3a00;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ca3a00;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ca3a00;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #aa5939;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Patrick+Hand');
+.comun-barra {
+    /*background: #eeeeee;*/
+    color: black;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#barra-izquierda {
+    border-width: 3px 3px 3px 0; 
+    border-style: solid; 
+    -webkit-border-image: -webkit-gradient(linear, 0 0, 100% 0, from(grey), to(white)) 1 100%; 
+    -webkit-border-image: -webkit-linear-gradient(left, grey, white) 1 100%; 
+    -moz-border-image: -moz-linear-gradient(left, grey, white) 1 100%; 
+    -o-border-image: -o-linear-gradient(left, grey, white) 1 100%; 
+    border-image: linear-gradient(to left, grey, white) 1 100%;
+}
+
+#barra-derecha {
+    border-width: 3px 0 3px 3px; 
+    border-style: solid; 
+    -webkit-border-image: -webkit-gradient(linear, 0 0, 100% 0, from(grey), to(white)) 1 100%; 
+    -webkit-border-image: -webkit-linear-gradient(right, grey, white) 1 100%; 
+    -moz-border-image: -moz-linear-gradient(right, grey, white) 1 100%; 
+    -o-border-image: -o-linear-gradient(right, grey, white) 1 100%; 
+    border-image: linear-gradient(to right, grey, white) 1 100%;
+}
+
+.media-left #img_profile {
+    border: 2px solid #aaaaaa;
+    border-radius: 25px;
+    width: 100px;
+    height: 100px;
+    padding: 6px;
+}
+
+#btn-profile
+{
+    border-radius: 3px;
+    border: 0px;
+    font-size: 18px;
+    line-height: 0.6;
+    padding: 10px 16px;
+    width: 100%;
+}
+
+.datos-timeline a,
+.gen-info a ,
+.receta-info a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #AA5939;
+    font-size: 20px;
+}
+.datos-timeline a:hover,
+.datos-timeline a:active,
+.gen-info a:hover,
+.gen-info a:active,
+.receta-info a:hover,
+.receta-info a:active{
+    color: #BA3500;
+}
+
+#titulo_busqueda {
+    background-color: #AA5939;
+    color: white;
+    font-style: bold;
+    font-size: 20px;
+}
+
+#bloque-timeline {
+    background-color: white;
+}
+
+#titulo-timeline {
+    background-color: #AA5939;
+    color: white;
+
+    font-style: bold;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px; 
+
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: -10px;
+    
+}
+
+#image-timeline {
+    width: 100%;
+    height: 215px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.datos-timeline {
+   padding: 10px;
+}
+
+.datos-timeline td {
+    width: 150px;
+}
+
+.datos-timeline button
+{
+    margin-top: -10px;
+    border-radius: 3px;
+    border: 0px;
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 10px 16px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-top {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    left: 95%;
+    top: 90%;
+    z-index: 9999;
+    background-color: #AA5939;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100px;
+}
+
+.btn-top .top{
+    padding-top: 2px;
+    padding-left: 4px;
+    font-size: 40px;
+    vertical-align: middle;
+    color: white;
+    
+}
+
+.btn-top:hover{
+    background-color: #BA3500;
+}
+
+.perfil-info img {
+    border: 2px solid #aaaaaa;
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+    padding: 6px;
+}
+
+.receta-info img {
+    width: 75%;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+
+.receta-info #titulo-receta {
+    background-color: #AA5939;
+    color: white;
+
+    font-style: bold;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px; 
+
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.separador-receta {
+    background-color: #2B4970;
+    color: white;
+
+    font-style: bold;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px; 
+
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.paginacion-receta a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-weight: normal;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.caja_usuario h3 {
+    background-color: #AA5939;
+    background: #AA5939 ;
+    border-radius: 5px; 
+    display: block;
+    color: white;
+}
